@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style7.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cart-container">
+        <div class="cart-items">
+            <h2>Cart</h2>
+            <div class="cart-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtjQ9smkxVUPHnmjEPaMe4vzrMjQZKPnMKQ&s" alt="T-shirt">
+                <div class="item-details">
+                    <h3>Relaxed Fit T-shirt</h3>
+                    <p>$12.99 <span class="in-stock">In Stock</span></p>
+                    <div class="item-options">
+                        <select>
+                            <option>XL</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Brown</option>
+                            <option>White</option>
+                        </select>
+                        <div class="quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        <svg class = "save"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853Z"></path></svg>
+                        <button>Save</button>
+                        <svg class = "save"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 7V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V7H2V5H22V7H20ZM11 10V17H13V10H11ZM7 2H17V4H7V2Z"></path></svg>
+                        <button> Delete</button>
+                        </div>
+                    </div>
+                                           
+                </div>
+                <p class="price">$12.99</p>
+            </div>
+
+            <div class="cart-item">
+                <img src="data:image/jpeg;base64,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" alt="cap">
+                <div class="item-details">
+                    <h3>Relaxed Fit Cap</h3>
+                    <p>$6.99 <span class="in-stock">Out Stock</span></p>
+                    <div class="item-options">
+                        <select>
+                            <option>XL</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                        </select>
+                        <div class="quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+
+                            <svg class = "save" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853Z"></path></svg>
+                            <button>Save</button>
+                            <svg class = "save" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 7V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V7H2V5H22V7H20ZM11 10V17H13V10H11ZM7 2H17V4H7V2Z"></path></svg>
+                            <button> Delete</button>
+                        </div>
+                    </div>
+                </div>
+                <p class="price">$6.99</p>
+            </div>
+
+            <div class="cart-item">
+                <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1386717-251_HF?rp=standard-0pad|pdpMainDesktop&scl=1&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=F0F0F0&wid=566&hei=708&size=566,708" alt="Pants">
+                <div class="item-details">
+                    <h3>Relaxed Fit Pants</h3>
+                    <p>$20.99 <span class="in-stock">Out Stock</span></p>
+                    <div class="item-options">
+                        <select>
+                            <option>XL</option>
+                            <option>L</option>
+                        </select>
+                        <select>
+                            <option>Brown</option>
+                            <option>White</option>
+                        </select>
+                        <div class="quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+
+                            <svg class = "save" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853Z"></path></svg>
+                            <button>Save</button>
+                            <svg class = "save" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 7V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V7H2V5H22V7H20ZM11 10V17H13V10H11ZM7 2H17V4H7V2Z"></path></svg>
+                            <button> Delete</button>
+                        </div>
+                    </div>
+                </div>
+                <p class="price">$20.99</p>
+            </div>
+
+
+            <div class="cart-item">
+                <img src=  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh8XYgMS2O_tFWX5CzmLeRvXRj7HCeTsAyg&s" alt="Shoes">
+                <div class="item-details">
+                    <h3>Relaxed Fit Shoes</h3>
+                    <p>$35.99 <span class="in-stock">Out Stock</span></p>
+                    <div class="item-options">
+                        <select>
+                            <option>X</option>
+                            <option>XL</option>
+                        </select>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                        </select>
+                        <div class="quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                            <svg class = "save"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853Z"></path></svg>
+                        <button>Save</button>
+                        <svg class = "save"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 7V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V7H2V5H22V7H20ZM11 10V17H13V10H11ZM7 2H17V4H7V2Z"></path></svg>
+                        <button> Delete</button>
+                        </div>
+                    </div>
+                </div>
+                <p class="price">$35.99</p>
+            </div>   
+        </div>
+
+
+        <div class="cart-summary">
+            <h2>Delivery</h2>
+            <div class="delivery-options">
+                <button class="free">Free</button>
+                <button class="express">$9.99</button>
+                <p>Delivery date: December 29 2024</p>
+            </div>
+    
+            <div class="promo">
+                <input type="text" placeholder="Promocode">
+                <button>Apply</button>
+                <p>20% off discount</p>
+            </div>
+    
+            <div class="totals">
+                <p>Subtotal: <span>$80.96</span></p>
+                <p>Discount (20%): <span>-$16.19</span></p>
+                <p>Delivery: <span>$0.00</span></p>
+                <p>Tax: <span>+$14.00</span></p>
+                <p class="total">Total: <span>$78.76</span></p>
+            </div>
+    
+            <button class="checkout">Proceed to checkout</button>
+            <button class="continue">Continue shopping</button>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
